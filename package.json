@@ -1,0 +1,36 @@
+{
+  "name": "wine-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "react-dev": "webpack -d --watch",
+    "start": "node server/index.js",
+    "start-dev": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cokane415/wine-tracker.git"
+  },
+  "author": "Catherine O'/Kane",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cokane415/wine-tracker/issues"
+  },
+  "homepage": "https://github.com/Cokane415/wine-tracker#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "jquery": "^3.1.1",
+    "body-parser": "^1.17.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  }
+}
